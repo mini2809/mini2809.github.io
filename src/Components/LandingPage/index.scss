@@ -1,0 +1,25 @@
+.contact-icons{
+    display: flex;
+}
+.landing-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+.intro{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name{
+    font-size: 45px;
+}
+.designation{
+    font-size: 22px;
+    font-weight: 500;
+}
+.contact-icons>div{
+    margin-right: 10px;
+}

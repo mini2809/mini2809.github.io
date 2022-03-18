@@ -1,0 +1,22 @@
+.nav-container{
+    width: 35%;
+    height: 100vh;
+}
+.profilephotodiv{
+    height: 150px;
+    border-bottom: 0.5px solid lightgray;
+    margin-bottom: 20px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.icon{
+    display: flex;
+}
+.table{
+    padding: 10px;
+}
