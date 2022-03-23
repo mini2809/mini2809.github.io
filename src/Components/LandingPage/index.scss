@@ -1,25 +1,29 @@
-.contact-icons{
-    display: flex;
+.contact-icons {
+	display: flex;
 }
-.landing-container{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 40px;
+.landing-container {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 40px;
 }
-.intro{
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.intro {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
-.name{
-    font-size: 45px;
+.name {
+	font-size: 45px;
 }
-.designation{
-    font-size: 22px;
-    font-weight: 500;
+.designation {
+	font-size: 22px;
+	font-weight: 500;
+	text-align: left;
 }
-.contact-icons>div{
-    margin-right: 10px;
+.contact-icons {
+	img {
+		cursor: pointer;
+		margin-right: 10px;
+	}
 }

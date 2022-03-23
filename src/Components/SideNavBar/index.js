@@ -5,53 +5,42 @@ import experience from '../../public/nav-icons/experience.svg';
 import profile from '../../public/nav-icons/profile.svg';
 import projects from '../../public/nav-icons/projects.svg';
 import resume from '../../public/nav-icons/resume.svg';
-
+import profilepic from '../../public/nav-icons/profile-pic.jpeg';
 
 export function SideNavBar(){
     return(
     <div className='nav-container'>
         <div className='profilephotodiv'>
-
-        </div>
-        <div className='table'>
-        <table>
-            <tr>
-                <td className='icon'>
+            <img src={profilepic}  alt="profile-pic" className='ppic'/>
+       </div>
+        <div >
+            <ul className='list'>
+                <li>
                     <img src={profile} alt="profile" />
                     <div className='tag'> About Me</div>
-                </td>
-            </tr>
-            <tr>
-                <td className='icon'>
+                </li>
+                <li>
                     <img src={experience} alt="experience" />
                     <div className='tag'> Work Experience</div>
-                </td>
-            </tr>
-            <tr>
-                <td className='icon'>
+                </li>
+                <li>
                     <img src={projects} alt="projects" />
                     <div className='tag'> Projects</div>
-                </td>
-            </tr>
-            <tr>
-                <td className='icon'>
+                </li>
+                <li>
                     <img src={education} alt="education" />
                     <div className='tag'> Education</div>
-                </td>
-            </tr>
-            <tr>
-                <td className='icon'>
+                </li>
+                <li>
                     <img src={contact} alt="contact" />
                     <div className='tag'> Contact</div>
-                </td>
-            </tr>
-            <tr>
-                <td className='icon'>
+                </li>
+                <li>
                     <img src={resume} alt="resume" />
                     <div className='tag'> Resume</div>
-                </td>
-            </tr>
-        </table>
+                </li>
+            </ul>
+        
         </div>
     </div>
     );
