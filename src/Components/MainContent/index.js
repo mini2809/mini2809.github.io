@@ -1,6 +1,7 @@
 import "./index.scss";
 import { LandingPage } from "../LandingPage";
 import { SkillCard } from "../SkillCard";
+import { Projectcard } from "../ProjectCard";
 
 export function MainContent() {
 	return (
@@ -48,6 +49,7 @@ export function MainContent() {
 					/>
 				</div>
 			</div>
+
 			<div className="sectionGap"></div>
 			<div>
 				<h2 className="sectionTitle">Education</h2>
@@ -87,6 +89,32 @@ export function MainContent() {
                     add a product to cart, checkout the order, etc."
 						point3="Improved the response time by 20% by refactoring the
                     codebase and changing database design and queries."
+					/>
+				</div>
+			</div>
+			<div className="sectionGap"></div>
+			<div>
+				<h2 className="sectionTitle">Projects</h2>
+				<div className="projectCards">
+					<Projectcard
+						className="left"
+						title="My Music"
+						description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+					/>
+
+					<Projectcard
+						className="right"
+						title="My Music"
+						description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+					/>
+
+					<Projectcard
+						className="left"
+						title="My Music"
+						description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
 					/>
 				</div>
 			</div>

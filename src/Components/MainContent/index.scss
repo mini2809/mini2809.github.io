@@ -17,3 +17,12 @@
 	font-size: 30px;
 	text-align: left;
 }
+
+.projectCards {
+	.left {
+		align-self: flex-start;
+	}
+	.right {
+		align-self: flex-end;
+	}
+}
