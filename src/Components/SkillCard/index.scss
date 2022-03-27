@@ -1,0 +1,32 @@
+.workExpContainer {
+	text-align: left;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 4px 8px grey;
+	margin-bottom: 40px;
+}
+.WEheading {
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content: space-between;
+
+	.designation {
+		font-size: 20px;
+	}
+	.timeperiod {
+		font-size: 12px;
+		color: gray;
+		display: flex;
+		align-items: center;
+	}
+}
+.matter {
+	margin-top: 18px;
+
+	ul > li {
+		margin-bottom: 10px;
+	}
+}
+.techUsed > img {
+	margin-left: 4px;
+}
