@@ -65,7 +65,7 @@ export function SideNavBar() {
 						<img src={contact} alt="contact" />
 						<div
 							className="tag"
-							onClick={() => ScrollElementToView("aboutMe")}
+							onClick={() => ScrollElementToView("contactMe")}
 						>
 							{" "}
 							Contact
@@ -73,7 +73,11 @@ export function SideNavBar() {
 					</li>
 					<li>
 						<img src={resume} alt="resume" />
-						<div className="tag"> Resume</div>
+						<div>
+							<a href="/somefile.txt" className="tag" download>
+								Resume
+							</a>
+						</div>
 					</li>
 				</ul>
 			</div>

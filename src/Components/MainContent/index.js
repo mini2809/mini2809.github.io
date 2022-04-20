@@ -2,6 +2,7 @@ import "./index.scss";
 import { LandingPage } from "../LandingPage";
 import { SkillCard } from "../SkillCard";
 import { Projectcard } from "../ProjectCard";
+import { ContactMe } from "../ContactMe";
 
 export function MainContent() {
 	return (
@@ -136,6 +137,12 @@ export function MainContent() {
 					</div>
 				</div>
 			</div>
+			<div className="sectionGap"></div>
+			<h2 className="sectionTitle">Contact Me</h2>
+			<div id="contactMe">
+				<ContactMe />
+			</div>
+			<div className="sectionGap"></div>
 		</div>
 	);
 }
