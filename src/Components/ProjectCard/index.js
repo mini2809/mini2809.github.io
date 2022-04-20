@@ -41,6 +41,7 @@ export function Projectcard(props) {
 					</div>
 				</div>
 			</div>
+			<div className="triangle"></div>
 		</div>
 	);
 }

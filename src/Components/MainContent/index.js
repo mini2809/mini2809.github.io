@@ -6,9 +6,9 @@ import { Projectcard } from "../ProjectCard";
 export function MainContent() {
 	return (
 		<div className="main-container">
-			<LandingPage />
+			<LandingPage id="aboutMe" />
 			<div className="sectionGap"></div>
-			<div>
+			<div id="workExperienceCards">
 				<h2 className="sectionTitle">Work Experience</h2>
 				<div className="cards">
 					<SkillCard
@@ -51,7 +51,7 @@ export function MainContent() {
 			</div>
 
 			<div className="sectionGap"></div>
-			<div>
+			<div id="educationCards">
 				<h2 className="sectionTitle">Education</h2>
 				<div className="cards">
 					<SkillCard
@@ -75,7 +75,7 @@ export function MainContent() {
 					<SkillCard
 						type="education"
 						designation="BE Computer Science at"
-						c_name=" Select Dine"
+						c_name=" Shri Shankaracharya Technical Campus "
 						from="August 2020"
 						to="Nov 2022"
 						timeperiod=" 3 mos"
@@ -92,32 +92,64 @@ export function MainContent() {
 					/>
 				</div>
 			</div>
-			<div className="sectionGap"></div>
-			<div>
+			<div id="cardsForProjects">
+				<div className="sectionGap"></div>
 				<h2 className="sectionTitle">Projects</h2>
-				<div className="projectCards">
-					<Projectcard
-						className="left"
-						title="My Music"
-						description="A webapp based music players, which allows user to browse
+				<div className="projectsTimeline">
+					<div className="leftcards">
+						{" "}
+						<Projectcard
+							className="left"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
 					through music library, and play music files"
-					/>
-
-					<Projectcard
-						className="right"
-						title="My Music"
-						description="A webapp based music players, which allows user to browse
+						/>
+						<div className="gap"></div>
+						<Projectcard
+							className="left"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
 					through music library, and play music files"
-					/>
-
-					<Projectcard
-						className="left"
-						title="My Music"
-						description="A webapp based music players, which allows user to browse
+						/>
+					</div>
+					<div className="timeline">
+						<div className="timelinediv" id="timelinediv">
+							<div className="circle"></div>
+							{/* {calltoNextCircle()} */}
+						</div>
+					</div>
+					<div className="rightcards">
+						<div className="gap"></div>
+						<Projectcard
+							className="right"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
 					through music library, and play music files"
-					/>
+						/>
+						<div className="gap"></div>
+						<Projectcard
+							className="right"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
 	);
+}
+function calltoNextCircle() {
+	console.log(window.innerHeight);
+	let parentDiv = document.getElementById("timelinediv");
+	let height = window.innerHeight;
+
+	for (let i = 0; i < 3; i++) {
+		height = 400 + height;
+		console.log(height);
+		let child = document.createElement("div");
+		child.classList.add("circle");
+		child.style.height = height;
+		parentDiv.append(child);
+	}
 }
