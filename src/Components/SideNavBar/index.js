@@ -73,11 +73,13 @@ export function SideNavBar() {
 					</li>
 					<li>
 						<img src={resume} alt="resume" />
-						<div>
-							<a href="/somefile.txt" className="tag" download>
-								Resume
-							</a>
-						</div>
+						<a
+							className="resumetab"
+							href="https://drive.google.com/file/d/1NhL0VQwg6Ht9kCTwx4xDaKOe9a497FCp/view?usp=sharing"
+							target="_blank"
+						>
+							<div className="tag">Resume</div>
+						</a>
 					</li>
 				</ul>
 			</div>

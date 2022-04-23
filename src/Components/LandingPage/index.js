@@ -2,7 +2,7 @@ import "./index.scss";
 import linkedin from "../../public/landingpage-icons/linkedin.svg";
 import gmail from "../../public/landingpage-icons/gmail.svg";
 import github from "../../public/landingpage-icons/github.svg";
-// import LoadLottie from "../../Lottie";
+import { LoadLottie } from "../LoadLottie";
 
 export function LandingPage() {
 	return (
@@ -31,7 +31,9 @@ export function LandingPage() {
 					</a>
 				</div>
 			</div>
-			<div className="my-icon">{/* <LoadLottie /> */}</div>
+			<div className="my-icon">
+				<LoadLottie />
+			</div>
 		</div>
 	);
 }

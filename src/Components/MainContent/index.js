@@ -51,6 +51,50 @@ export function MainContent() {
 				</div>
 			</div>
 
+			<div id="cardsForProjects">
+				<div className="sectionGap"></div>
+				<h2 className="sectionTitle">Projects</h2>
+				<div className="projectsTimeline">
+					<div className="leftcards">
+						{" "}
+						<Projectcard
+							className="left"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+						/>
+						<div className="gap"></div>
+						<Projectcard
+							className="left"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+						/>
+					</div>
+					<div className="timeline">
+						<div className="timelinediv" id="timelinediv">
+							{/* <div className="circle"></div> */}
+							{/* {calltoNextCircle()} */}
+						</div>
+					</div>
+					<div className="rightcards">
+						<div className="gap"></div>
+						<Projectcard
+							className="right"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+						/>
+						<div className="gap"></div>
+						<Projectcard
+							className="right"
+							title="My Music"
+							description="A webapp based music players, which allows user to browse
+					through music library, and play music files"
+						/>
+					</div>
+				</div>
+			</div>
 			<div className="sectionGap"></div>
 			<div id="educationCards">
 				<h2 className="sectionTitle">Education</h2>
@@ -91,50 +135,6 @@ export function MainContent() {
 						point3="Improved the response time by 20% by refactoring the
                     codebase and changing database design and queries."
 					/>
-				</div>
-			</div>
-			<div id="cardsForProjects">
-				<div className="sectionGap"></div>
-				<h2 className="sectionTitle">Projects</h2>
-				<div className="projectsTimeline">
-					<div className="leftcards">
-						{" "}
-						<Projectcard
-							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
-						/>
-						<div className="gap"></div>
-						<Projectcard
-							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
-						/>
-					</div>
-					<div className="timeline">
-						<div className="timelinediv" id="timelinediv">
-							<div className="circle"></div>
-							{/* {calltoNextCircle()} */}
-						</div>
-					</div>
-					<div className="rightcards">
-						<div className="gap"></div>
-						<Projectcard
-							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
-						/>
-						<div className="gap"></div>
-						<Projectcard
-							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
-						/>
-					</div>
 				</div>
 			</div>
 			<div className="sectionGap"></div>

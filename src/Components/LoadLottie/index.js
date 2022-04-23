@@ -1,7 +1,7 @@
 import Lottie from "react-lottie";
-import animationData from "../src/public/landingpage-icons/icon.json";
+import animationData from "../../public/landingpage-icons/icon.json";
 
-export default function LoadLottie() {
+export function LoadLottie() {
 	const defaultOptions = {
 		loop: true,
 		autoplay: true,
@@ -13,7 +13,7 @@ export default function LoadLottie() {
 
 	return (
 		<div>
-			<Lottie options={defaultOptions} height={400} width={400} />
+			<Lottie options={defaultOptions} width={600} />
 		</div>
 	);
 }
