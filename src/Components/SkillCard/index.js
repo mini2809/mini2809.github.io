@@ -7,17 +7,7 @@ import html from "../../public/skillcard-icons/html.svg";
 import react from "../../public/skillcard-icons/react.svg";
 import redux from "../../public/skillcard-icons/redux.svg";
 
-const propsToSvgs = {
-	JS: js,
-	HTML: html,
-	CSS: css,
-	JIRA: jira,
-	GIT: git,
-	REACT: react,
-	REDUX: redux,
-};
 export function SkillCard(props) {
-	console.log(props);
 	return (
 		<div className="workExpContainer">
 			<div className="WEheading">
@@ -39,17 +29,13 @@ export function SkillCard(props) {
 				</ul>
 			</div>
 			<div className="techUsed">
-				{props.tech((t) => {
-					// <img src={props.svgs(t).value} alt="html" />
-					console.log(props.svgs(t).value);
-				})}
-
-				{/* <img src={css} alt="html" />
+				<img src={html} alt="html" />
+				<img src={css} alt="html" />
 				<img src={git} alt="html" />
 				<img src={jira} alt="html" />
 				<img src={js} alt="html" />
 				<img src={react} alt="html" />
-				<img src={redux} alt="html" /> */}
+				<img src={redux} alt="html" />
 			</div>
 		</div>
 	);
