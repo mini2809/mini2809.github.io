@@ -22,13 +22,20 @@ export function Projectcard(props) {
 				<div className="heading">
 					<div className="title">{props.title}</div>
 					<div>
-						<button className="livepreview">Live Preview</button>
+						<a href={props.livePreview} target="_blank">
+							<button className="livepreview">
+								{" "}
+								Live Preview
+							</button>
+						</a>
 					</div>
 				</div>
 				<div className="description">{props.description}</div>
 				<div className="footer">
 					<div className="gitrepo">
-						<img src={Vector} alt="Vector" />
+						<a href={props.githubLink} target="_blank">
+							<img src={Vector} alt="Vector" />
+						</a>
 					</div>
 					<div className="techUsed">
 						<img src={html} alt="html" />

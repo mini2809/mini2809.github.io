@@ -48,14 +48,17 @@ export function MainContent() {
 						<Projectcard
 							className="left"
 							title="YouTube music clone"
-							description="Built UI similar to YouTube music web app with carousel displaying various songs and albums.
-							"
+							description="Built UI similar to YouTube music web app with carousel displaying various songs and albums."
+							livePreview="https://mini2809.github.io/YouTubeMusic-Clone/"
+							githubLink="https://github.com/mini2809/YouTubeMusic-Clone"
 						/>
 						<div className="gap"></div>
 						<Projectcard
 							className="left"
 							title="Portfolio project |"
 							description="Built a single page portfolio project which displays work experience, projects and education."
+							livePreview="https://mini2809.github.io"
+							githubLink="https://github.com/mini2809/mini2809.github.io"
 						/>
 					</div>
 					<div className="timeline">
@@ -72,6 +75,8 @@ export function MainContent() {
 							description="Single View Calendar Dashboard consolidates calendars from different sources (Gmail, Exchange, Outlook, iCal) into a
 							single view,User gets an option to accept or reject meeting requests which can be sent by anyone outside of organisation.
 							"
+							livePreview="https://mini2809.github.io/Mytime/"
+							githubLink="https://github.com/mini2809/Mytime"
 						/>
 						<div className="gap"></div>
 						<Projectcard
@@ -79,6 +84,8 @@ export function MainContent() {
 							title="Word Guessing Game"
 							description="Built word guessing game where user gets 6 attempts to guess a word,In each attempt, user will get to know if entered characters are present in the result word also whether entered characters
 							are present in correct location."
+							livePreview="https://mini2809.github.io/My-Wordle/"
+							githubLink="https://github.com/mini2809/My-Wordle"
 						/>
 					</div>
 				</div>
