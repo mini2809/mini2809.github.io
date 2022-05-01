@@ -94,16 +94,9 @@ export function MainContent() {
 						from="April 2020"
 						to="July 2022"
 						timeperiod=" 1yr 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Learnt HTML,CSS and Javascript from core"
+						point2="Learnt Bundling Tools Like Webpack ,service Workers and other frontend Performance optimization through this Program"
+						point3="Completed Several Projects Assignments in between the program which was reviewed and approved by Udacity Mentors"
 					/>
 					<SkillCard
 						type="education"
@@ -112,16 +105,9 @@ export function MainContent() {
 						from="August 2020"
 						to="Nov 2022"
 						timeperiod=" 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Completed B.E. in Computer Science  anf=d Engineering branch "
+						point2="Learnt Computer Science Engineering From Basics to Advanced Concepts  "
+						point3="Good Grasp in Data Structure and Algorithm , Operating System and Programming Concepts "
 					/>
 				</div>
 			</div>
