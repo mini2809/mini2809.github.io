@@ -19,16 +19,10 @@ export function MainContent() {
 						from="Nov 2020"
 						to="Feb 2022"
 						timeperiod=" 1 yr 4 mos"
-						point1="Developed and managed the backend of an e-commerce
-						platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-						platform using Flask, MongoDB, and AWS. Worked on three
-						web applications targeting customers, selling vendors,
-						and admin users; built 50+ RESTful APIs with
-						functionalities such as login/sign up, view a product,
-						add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-						codebase and changing database design and queries."
+						point1="Built front end of an insurance web application which allows users to list insurance products, compare across products."
+						point2="User can search for a particular insurance scheme, sort and filter from the returned list."
+						point3="Integrated front end with different back end server to complete end-to-end working of insurance portal."
+						tech={["JS", "HTML", "CSS"]}
 					/>
 					<SkillCard
 						type="WorkExp"
@@ -37,16 +31,11 @@ export function MainContent() {
 						from="August 2020"
 						to="Nov 2022"
 						timeperiod=" 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Built various UI Reusable components in React and unit tested with React-testing-library, used across application and
+						quickly built various prototypes with information gathered from the product team."
+						point2="Built end to end e-commerce web application with all features including cart page, search, filters, product listings, user
+						and vendor accounts, billing integration using react, redux, react-router, web pack and babel."
+						point3="Collaborated with back end team to understand and utilize APIs for building front end of e-commerce platform."
 					/>
 				</div>
 			</div>
@@ -59,16 +48,20 @@ export function MainContent() {
 						{" "}
 						<Projectcard
 							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Single view calendar dashboard"
+							description="Single View Calendar Dashboard consolidates calendars from different sources (Gmail, Exchange, Outlook, iCal) into a
+							single view.
+							User gets an option to accept or reject meeting requests which can be sent by anyone outside of organisation.
+							Dashboard also provides an analysis view of last week’s time spent on meetings in form of charts and graphs."
 						/>
 						<div className="gap"></div>
 						<Projectcard
 							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="YouTube music clone "
+							description="Built UI similar to YouTube music web app with carousel displaying various songs and albums.
+							Integrated music player which allows user to select and play any music with all features (play/pause, volume controls,
+							navigation).
+							Tech stack: React, HTML, CSS."
 						/>
 					</div>
 					<div className="timeline">
@@ -81,16 +74,20 @@ export function MainContent() {
 						<div className="gap"></div>
 						<Projectcard
 							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Word Guessing Game"
+							description="Built word guessing game where user gets 6 attempts to guess a word.
+							In each attempt, user will get to know if entered characters are present in the result word also whether entered characters
+							are present in correct location.
+							Tech stack: HTML, CSS, JavaScript."
 						/>
 						<div className="gap"></div>
 						<Projectcard
 							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Portfolio project"
+							description="Built a single page portfolio project which displays work experience, projects and education.
+							Integrated Jekyll blogging which allows static content to be deployed in github repo and later fetched as blogs in front
+							end.
+							Tech stack: HTML, CSS, JavaScript."
 						/>
 					</div>
 				</div>
@@ -106,16 +103,9 @@ export function MainContent() {
 						from="April 2020"
 						to="July 2022"
 						timeperiod=" 1yr 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Learnt Html ,Css and Javascript"
+						point2="Learnt Nodejs, built tools such as webpack,Service workers and preformance optimization techniques"
+						point3="Completed Challenging Assignments and projects under technical Proficient mentors "
 					/>
 					<SkillCard
 						type="education"
@@ -124,16 +114,9 @@ export function MainContent() {
 						from="August 2020"
 						to="Nov 2022"
 						timeperiod=" 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Completed Bachelor's in Computer Science of Engineering"
+						point2="Learnt Fundamentals of Computer Science"
+						point3="Strong grasp in Data Structures , Algorithms , operating System and core subjects"
 					/>
 				</div>
 			</div>
@@ -145,18 +128,4 @@ export function MainContent() {
 			<div className="sectionGap"></div>
 		</div>
 	);
-}
-function calltoNextCircle() {
-	console.log(window.innerHeight);
-	let parentDiv = document.getElementById("timelinediv");
-	let height = window.innerHeight;
-
-	for (let i = 0; i < 3; i++) {
-		height = 400 + height;
-		console.log(height);
-		let child = document.createElement("div");
-		child.classList.add("circle");
-		child.style.height = height;
-		parentDiv.append(child);
-	}
 }
