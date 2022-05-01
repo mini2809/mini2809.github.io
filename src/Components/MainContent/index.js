@@ -19,16 +19,9 @@ export function MainContent() {
 						from="Nov 2020"
 						to="Feb 2022"
 						timeperiod=" 1 yr 4 mos"
-						point1="Developed and managed the backend of an e-commerce
-						platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-						platform using Flask, MongoDB, and AWS. Worked on three
-						web applications targeting customers, selling vendors,
-						and admin users; built 50+ RESTful APIs with
-						functionalities such as login/sign up, view a product,
-						add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-						codebase and changing database design and queries."
+						point1="Built front end of an insurance web application which allows users to list insurance products, compare across products."
+						point2="User can search for a particular insurance scheme, sort and filter from the returned list."
+						point3="Integrated front end with different back end server to complete end-to-end working of insurance portal."
 					/>
 					<SkillCard
 						type="WorkExp"
@@ -37,16 +30,11 @@ export function MainContent() {
 						from="August 2020"
 						to="Nov 2022"
 						timeperiod=" 3 mos"
-						point1="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS."
-						point2="Developed and managed the backend of an e-commerce
-                    platform using Flask, MongoDB, and AWS. Worked on three
-                    web applications targeting customers, selling vendors,
-                    and admin users; built 50+ RESTful APIs with
-                    functionalities such as login/sign up, view a product,
-                    add a product to cart, checkout the order, etc."
-						point3="Improved the response time by 20% by refactoring the
-                    codebase and changing database design and queries."
+						point1="Built various UI Reusable components in React and unit tested with React-testing-library, used across application and
+						quickly built various prototypes with information gathered from the product team."
+						point2="Built end to end e-commerce web application with all features including cart page, search, filters, product listings, user
+						and vendor accounts, billing integration using react, redux, react-router, web pack and babel."
+						point3="Collaborated with back end team to understand and utilize APIs for building front end of e-commerce platform."
 					/>
 				</div>
 			</div>
@@ -59,16 +47,15 @@ export function MainContent() {
 						{" "}
 						<Projectcard
 							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="YouTube music clone"
+							description="Built UI similar to YouTube music web app with carousel displaying various songs and albums.
+							"
 						/>
 						<div className="gap"></div>
 						<Projectcard
 							className="left"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Portfolio project |"
+							description="Built a single page portfolio project which displays work experience, projects and education."
 						/>
 					</div>
 					<div className="timeline">
@@ -81,16 +68,17 @@ export function MainContent() {
 						<div className="gap"></div>
 						<Projectcard
 							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Single view calendar dashboard"
+							description="Single View Calendar Dashboard consolidates calendars from different sources (Gmail, Exchange, Outlook, iCal) into a
+							single view,User gets an option to accept or reject meeting requests which can be sent by anyone outside of organisation.
+							"
 						/>
 						<div className="gap"></div>
 						<Projectcard
 							className="right"
-							title="My Music"
-							description="A webapp based music players, which allows user to browse
-					through music library, and play music files"
+							title="Word Guessing Game"
+							description="Built word guessing game where user gets 6 attempts to guess a word,In each attempt, user will get to know if entered characters are present in the result word also whether entered characters
+							are present in correct location."
 						/>
 					</div>
 				</div>
