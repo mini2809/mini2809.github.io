@@ -16,60 +16,34 @@ export function SideNavBar() {
 			<div>
 				<ul className="list">
 					<li>
-						<img src={profile} alt="profile" />
-						<div
-							className="tag"
-							onClick={() => ScrollElementToView("aboutMe")}
-						>
-							{" "}
-							About Me
-						</div>
+						<a href="#aboutMe">
+							<img src={profile} alt="profile" />
+							<div className="tag"> About Me</div>
+						</a>
 					</li>
 					<li>
-						<img src={experience} alt="experience" />
-						<div
-							className="tag"
-							onClick={() =>
-								ScrollElementToView("workExperienceCards")
-							}
-						>
-							{" "}
-							Work Experience
-						</div>
+						<a href="#workExperienceCards">
+							<img src={experience} alt="experience" />
+							<div className="tag"> Work Experience</div>
+						</a>
 					</li>
 					<li>
 						<img src={projects} alt="projects" />
-						<div
-							className="tag"
-							onClick={() =>
-								ScrollElementToView("cardsForProjects")
-							}
-						>
-							{" "}
-							Projects
-						</div>
+						<a href="#cardsForProjects">
+							<div className="tag"> Projects</div>
+						</a>
 					</li>
 					<li>
-						<img src={education} alt="education" />
-						<div
-							className="tag"
-							onClick={() =>
-								ScrollElementToView("educationCards")
-							}
-						>
-							{" "}
-							Education
-						</div>
+						<a href="#educationCards">
+							<img src={education} alt="education" />
+							<div className="tag"> Education</div>
+						</a>
 					</li>
 					<li>
-						<img src={contact} alt="contact" />
-						<div
-							className="tag"
-							onClick={() => ScrollElementToView("contactMe")}
-						>
-							{" "}
-							Contact
-						</div>
+						<a href="#contactMe">
+							<img src={contact} alt="contact" />
+							<div className="tag"> Contact</div>
+						</a>
 					</li>
 					<li>
 						<img src={resume} alt="resume" />
@@ -85,13 +59,4 @@ export function SideNavBar() {
 			</div>
 		</div>
 	);
-}
-
-function ScrollElementToView(id) {
-	let element = document.getElementById(id);
-	element.scrollIntoView({
-		behavior: "smooth",
-		block: "end",
-		inline: "nearest",
-	});
 }
