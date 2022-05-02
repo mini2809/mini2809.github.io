@@ -48,7 +48,7 @@ export function MainContent() {
 						<Projectcard
 							className="left"
 							title="YouTube music clone"
-							description="Built UI similar to YouTube music web app with carousel displaying various songs and albums."
+							description=" UI similar to YouTube music web app with carousel displaying various songs and albums."
 							livePreview="https://mini2809.github.io/YouTubeMusic-Clone/"
 							githubLink="https://github.com/mini2809/YouTubeMusic-Clone"
 						/>
@@ -56,7 +56,7 @@ export function MainContent() {
 						<Projectcard
 							className="left"
 							title="Portfolio project |"
-							description="Built a single page portfolio project which displays work experience, projects and education."
+							description="A single page portfolio project which displays work experience, projects and education."
 							livePreview="https://mini2809.github.io"
 							githubLink="https://github.com/mini2809/mini2809.github.io"
 						/>
@@ -82,7 +82,7 @@ export function MainContent() {
 						<Projectcard
 							className="right"
 							title="Word Guessing Game"
-							description="Built word guessing game where user gets 6 attempts to guess a word,In each attempt, user will get to know if entered characters are present in the result word also whether entered characters
+							description="Its a word guessing game where user gets 6 attempts to guess a word,In each attempt, user will get to know if entered characters are present in the result word also whether entered characters
 							are present in correct location."
 							livePreview="https://mini2809.github.io/My-Wordle/"
 							githubLink="https://github.com/mini2809/My-Wordle"
