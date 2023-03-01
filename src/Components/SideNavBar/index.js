@@ -49,7 +49,7 @@ export function SideNavBar() {
 						<img src={resume} alt="resume" />
 						<a
 							className="resumetab"
-							href="https://drive.google.com/file/d/1NhL0VQwg6Ht9kCTwx4xDaKOe9a497FCp/view?usp=sharing"
+							href="https://drive.google.com/file/d/1wv_I7fbqKp3Hf2il9W5YGMh9hV4ti2sa/view?usp=share_link"
 							target="_blank"
 						>
 							<div className="tag">Resume</div>

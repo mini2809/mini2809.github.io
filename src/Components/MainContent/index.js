@@ -14,7 +14,18 @@ export function MainContent() {
 				<div className="cards">
 					<SkillCard
 						type="WorkExp"
-						designation="Software Engineer from"
+						designation="FrontEnd Engineer At"
+						c_name=" Trago"
+						from="June 2022"
+						to="Present"
+						timeperiod="10 months approx"
+						point1="Built and manage front end of Trago web application which allows users to trade on live events of different categoriessuch as sports,crypto andmany more ."
+						point2="User can bid on different events, on correct prediction they can earn money"
+						point3="Built and manage internal tool on appsmith for managing events for event management team and internal operations"
+					/>
+					<SkillCard
+						type="WorkExp"
+						designation="Software Engineer From"
 						c_name=" TCS"
 						from="Nov 2020"
 						to="Feb 2022"
@@ -25,7 +36,7 @@ export function MainContent() {
 					/>
 					<SkillCard
 						type="WorkExp"
-						designation="React Developer from"
+						designation="React Developer From"
 						c_name=" Select Dine"
 						from="August 2020"
 						to="Nov 2022"
